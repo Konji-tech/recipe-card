@@ -1,0 +1,36 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    font-size: 16px;
+}
+
+body{
+background-color: palevioletred;
+}
+
+.back{
+    background-color: white;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+}
+
+.omelette{
+    border-radius: 2rem;
+    overflow: hidden;
+  
+ 
+}
+
+.preparation{
+
+    background-color: blueviolet;
+    border-radius: 1rem;
+    overflow-wrap: normal;
+}
+
+img{
+    width: 100%;
+}

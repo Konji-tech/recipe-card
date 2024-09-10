@@ -39,6 +39,10 @@ span{
     padding: 1rem;
 }
 
+.preparation h2 {
+    color: #4B0082;
+  }
+
 .ingredients{
     border-bottom: solid;
     border-color: grey;
@@ -46,6 +50,51 @@ span{
  
 }
 
+.instructions{
+    border-bottom: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+
 img{
     width: 100%;
 }
+
+ol li::marker {
+   
+    color: darkred; 
+    font-weight: bold;
+   
+  }
+
+  ul li::marker {
+   
+    color: darkred; 
+   
+  }
+  h1{
+    font-size: 40px;
+    color: darkred;
+    font-family:"Times New Roman", Times, serif;
+  }
+
+  h2{
+    font-size: 25px;
+    color: darkred;
+  }
+  table{
+    width: 100%;
+    font-weight: bold;
+  }
+  td{
+    padding: 20px;
+    border-bottom: solid;
+    color: gray;
+    border-collapse: collapse;
+  }
+
+  .second{
+
+  text-decoration-color: darkred;
+  }
+
